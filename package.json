@@ -1,0 +1,34 @@
+{
+    "name": "browser-default-value",
+    "version": "1.0.0",
+    "description": "Get the specified property of all html tags for the current browser",
+    "author": "Hefty",
+    "private": true,
+    "scripts": {
+        "dev": "backpack dev",
+        "build": "nuxt build && backpack build",
+        "start": "cross-env NODE_ENV=production node build/main.js",
+        "precommit": "npm run lint",
+        "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+    },
+    "dependencies": {
+        "axios": "^0.16.2",
+        "cross-env": "^5.0.1",
+        "element-ui": "^1.3.7",
+        "express": "^4.15.3",
+        "nuxt": "^1.0.0-alpha.4",
+        "source-map-support": "^0.4.15"
+    },
+    "devDependencies": {
+        "babel-eslint": "^7.2.3",
+        "backpack-core": "^0.4.0-rc1",
+        "eslint": "^4.1.1",
+        "eslint-config-standard": "^10.2.1",
+        "eslint-loader": "^1.8.0",
+        "eslint-plugin-html": "^3.0.0",
+        "eslint-plugin-import": "^2.6.1",
+        "eslint-plugin-node": "^5.1.0",
+        "eslint-plugin-promise": "^3.5.0",
+        "eslint-plugin-standard": "^3.0.1"
+    }
+}

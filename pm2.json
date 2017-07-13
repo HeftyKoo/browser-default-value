@@ -1,5 +1,5 @@
 {
-    "name": "browser",
+    "name": "browser-default",
     "script": "build/main.js",
     "env": {
         "NODE_ENV": "production",

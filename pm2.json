@@ -1,0 +1,8 @@
+{
+    "name": "browser",
+    "script": "build/main.js",
+    "env": {
+        "NODE_ENV": "production",
+        "PORT": 3000
+    }
+}
